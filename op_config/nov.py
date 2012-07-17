@@ -16,7 +16,8 @@ info = {
     "application_name": "Nov RP"
   },
   "provider": {
-    "dynamic": "https://connect-op.heroku.com"
+    "dynamic": "https://connect-op.heroku.com",
+    "x509_url": "https://connectop.heroku.com/cert.pem"
   },
   "interaction":[{
     "matches" : {
