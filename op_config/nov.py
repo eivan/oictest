@@ -3,7 +3,10 @@
 import json
 
 info = {
-  "versions": { "oauth": "2.0", "openid": "3.0"},
+  "versions": {
+    "oauth": "2.0",
+    "openid": "3.0"
+  },
   "features": {
     "registration":True,
     "discovery": True,
@@ -16,8 +19,7 @@ info = {
     "application_name": "Nov RP"
   },
   "provider": {
-    "dynamic": "https://connect-op.heroku.com",
-    "x509_url": "https://connectop.heroku.com/cert.pem"
+    "dynamic": "https://connect-op.heroku.com"
   },
   "interaction":[{
     "matches" : {
